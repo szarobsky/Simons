@@ -3,7 +3,7 @@
 This project implements Simon's algorithm using a quantum virtual environment. There are a few different files - 
 - example.ipynb shows a single run of the quantum circuit
 - fullAlgorithm.ipynb runs the full quantum algorithm, and solves for the string
-- walkthrough.ipynb constructs the quantum circuit, explaining each step.
+- walkthrough.ipynb constructs the quantum circuit, explaining each step
 
 ## Installation
 
