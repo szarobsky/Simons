@@ -1,61 +1,80 @@
 # Simon's Algorithm Quantum Project
 
-This project implements Simon's algorithm using a quantum virtual environment. There are a few different files - 
-- example.ipynb shows a single run of the quantum circuit
-- fullAlgorithm.ipynb runs the full quantum algorithm, and solves for the string
-- walkthrough.ipynb constructs the quantum circuit, explaining each step.
+This project implements Simon's algorithm using a quantum virtual environment.
 
 ## Installation
 
-Check if git is installed:
-```sh
-git --version
-```
-If not, check out [git installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+### Prerequisites
 
-Check Python version:
-```sh 
-python3.12 --version
-```
-If Python 3.12.4 is not installed, check out [Python 3.12.4](https://www.python.org/downloads/release/python-3124/).
+1. **Git**: Check if Git is installed:
+    ```sh
+    git --version
+    ```
+    If not, check out [Git installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-Check pip version:
-```sh
-pip --version
-```
-If pip is not installed, check out [pip installation](https://pip.pypa.io/en/stable/installation/).
+2. **Python**: Check Python version:
+    ```sh 
+    python3.12 --version
+    ```
+    If Python 3.12.4 is not installed, check out [Python 3.12.4](https://www.python.org/downloads/release/python-3124/).
 
-If pip is installed, but not pip 24.2, run:
-```sh
-python -m pip install --upgrade pip==24.2
-```
+3. **Pip**: Check pip version:
+    ```sh
+    pip --version
+    ```
+    If pip is not installed, check out [pip installation](https://pip.pypa.io/en/stable/installation/).
 
-Check virtualenv version:
-```sh
-virtualenv --version
-```
-If virtualenv 20.26.6 is not installed, run:
-```sh
-pip install virtualenv==20.26.6
-```
+    If pip is installed, but not pip 24.2, run:
+    ```sh
+    python -m pip install --upgrade pip==24.2
+    ```
+
+4. **Virtualenv**: Check virtualenv version:
+    ```sh
+    virtualenv --version
+    ```
+    If virtualenv 20.26.6 is not installed, run:
+    ```sh
+    pip install virtualenv==20.26.6
+    ```
+
+### Setup
 
 To set up the project, run the following commands:
 
-```sh
-# Clone the repository
-git clone https://github.com/szarobsky/Simons
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/szarobsky/Simons
+    ```
 
-# Navigate to the project directory
-cd Simons
+2. **Navigate to the project directory**:
+    ```sh
+    cd Simons
+    ```
 
-# Set up the virtual environment
-virtualenv -p python3.12.4 venv
+3. **Set up the virtual environment**:
+    ```sh
+    virtualenv -p python3.12.4 venv
+    ```
 
-# Activate the virtual environment
-source venv/bin/activate  # On Unix or MacOS
-# or
-venv/Scripts/activate  # On Windows
+4. **Activate the virtual environment**:
+    - On Unix or MacOS:
+        ```sh
+        source venv/bin/activate
+        ```
+    - On Windows:
+        ```sh
+        venv/Scripts/activate
+        ```
 
-# Install the dependencies
-pip install -r requirements.txt
-```
+5. **Install the dependencies**:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Project Structure
+- `example.ipynb`: Jupyter notebook showing a single run of the quantum circuit.
+- `fullAlgorithm.ipynb`: Jupyter notebook that runs the full quantum algorithm and solves for the secret string.
+- `walkthrough.ipynb`: Jupyter notebook that constructs the quantum circuit, explaining each step.
+- `requirements.txt`: Lists the project's dependencies.
+- `.gitignore` Specifies files and directories to be ignored by Git.
