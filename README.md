@@ -49,7 +49,7 @@ git clone https://github.com/szarobsky/Simons
 cd Simons
 
 # Set up the virtual environment
-virtualenv -p python3.12.4 myenv
+virtualenv -p python3.12.4 venv
 
 # Activate the virtual environment
 source venv/bin/activate  # On Unix or MacOS
